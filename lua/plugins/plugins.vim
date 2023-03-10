@@ -1,8 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
 Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
 
@@ -20,7 +17,16 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
+Plug 'nvim-tree/nvim-web-devicons' " Recommended (for coloured icons)
+Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
+
+"Lsp
 Plug 'neovim/nvim-lspconfig'
-Plug 'SmiteshP/nvim-navic'
+Plug 'nvim-lua/lsp-status.nvim'
+Plug 'ms-jpq/coq_nvim'
+
+"Nvim-tree
+Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
+Plug 'nvim-tree/nvim-tree.lua'
 
 call plug#end()
