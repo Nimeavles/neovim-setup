@@ -5,10 +5,13 @@ vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/plugins/plugins.vim")
 vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/plugins/lualine.lua"))
 vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/themes/catppuccin.lua"))
 vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/plugins/lsp.lua"))
+vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/plugins/cmp.lua"))
 
 vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/plugins/nvim-tree.lua"))
 
 vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/keymaps.lua"))
+
+vim.cmd("source " .. vim.fn.expand("$HOME/.config/nvim/lua/plugins/treesitter.lua"))
 
 --Termgui colors
 vim.opt.termguicolors = true

@@ -18,3 +18,4 @@ Map("v", "<C-s>", "<cmd>:w<cr>", { silent = true })
 Map("n", "<C-q>", "<cmd>:wq<cr>", { silent = true })
 Map("i", "<C-S-q>", "<cmd>:q!<cr>", { silent = true })
 
+Map("n", "<C-S-p>", "<cmd>:CocCommand markdown-preview-enhanced.openPreview<cr>", { silent = true })
