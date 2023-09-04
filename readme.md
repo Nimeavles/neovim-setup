@@ -1,14 +1,14 @@
-# **Neovim Setup**
+# Neovim Setup
 
-## **Pics**
+## Pics
 
-- **Setup**
+- Setup
   <img src="./pics/image1.png" alt="pic1"/>
 
-- **Autocomplete**
+- Autocomplete
   <img src="./pics/image2.png" alt="pic1"/>
 
-## **Installation**
+## Installation
 
 ```sh
 # Install Vim plug (plugin manager)
@@ -22,5 +22,12 @@ nvim .
 
 #Restart neovim 🚀
 ```
+
+## Install Plugins with coc
+If you want to install plugins as autocomplete or lsp, you have to use coc.
+
+The coc plugins list is:
+[Coc extensions list](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
+
 
 #### **Made by Nimeavles with ❤️**

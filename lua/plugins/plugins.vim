@@ -30,7 +30,7 @@ Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
 Plug 'nvim-tree/nvim-tree.lua'
 
 "Nvim-treesitter
-Plug 'nvim-treesitter/nvim-treesitter', 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 "CMP
 Plug 'hrsh7th/nvim-cmp',
@@ -48,4 +48,13 @@ Plug 'L3MON4D3/LuaSnip',
 Plug 'saadparwaiz1/cmp_luasnip',
 Plug 'rafamadriz/friendly-snippets'
 
+Plug 'rust-lang/rust.vim'
+
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+" (Optional) Multi-entry selection UI.
+Plug 'junegunn/fzf'
 call plug#end()
